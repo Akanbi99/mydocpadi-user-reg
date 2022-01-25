@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="./book-consult.css">
+    <title>Book consultation</title>
+</head>
+<body>
+    <nav class="flex space-x-10 text-2x justify-between items-center py-4 px-10 shadow-lg font-medium " >
+        <img src="../Images/logo.svg" alt="logo" class="">
+        <ul class="flex  justify-evenly width-50 items-center" id="book-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact us</a></li>
+            <div class="user-info flex justify-between items-center">
+                <img src="../Images/user's img.png" class="rounded-full" alt="user's image">
+                <p class="user's name book-blue px-4">Jennifer Adeoye</p>
+                <div class="ellipse-dropdown flex justify-between ">
+                    <span class="ellipse rounded-full "></span>
+                    <span class="ellipse rounded-full"></span>
+                    <span class="ellipse rounded-full"></span>
+                </div>
+            </div>
+        </ul>
+       
+    </nav>
+    <section class="modal width-50 mx-auto">
+        <div class="event-container width-85 mx-auto m-10">  
+            <div class="event-title">
+                <h2 class="book-blue  font-harabara font-bold text-center text-5xl">Book a Consultation</h2>
+            </div>
+        </div>
+        <p class="book-txt font-light text-2xl text-center mt-5">My health Padi is ready to attend to your health needs.</p>
+        <h6 class="book-txt font-medium font-airbnb mt-10 mb-3 text-center text-3xl">who is the consult for?</h6>
+        <form class="book-options">
+            <div class=" ">
+                <div class="option-container width-70 mx-auto bg-white flex justify-between items-center px-6 py-5 pb-20">
+                
+                <p class="option-title book-blue font-bold text-4xl"> Myself</p>
+                <a href="#" class="option-btn rounded-full"></a>
+                </div>
+            </div>
+            <div class=" mt-10 bg-white">
+                <div class="option-container mt-10 width-70 mx-auto  flex justify-between items-center px-6 py-5">
+                    <p class="option-title book-blue font-bold text-4xl"> Other</p>
+                   <input type="radio" class="option"/>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
