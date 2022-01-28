@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="./book-consult.css">
+    <title>Book consultation</title>
+    <link href="/dist/output.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="flex space-x-10 text-xs justify-between items-center py-4 px-2 shadow-lg overflow-x-auto font-medium lg:text-2x px-8" >
+        <img src="../Images/logo.svg" alt="logo" class="w-2/6 ml-0 pl-0 sm:w-1/5">
+        <!-- <img src="../Images/hamburger-icon.png" onclick="toggleHamburger()"  class=" mr-8 lg:hidden cursor-pointer" > -->
+        <ul class="navlinks justify-evenly flex flex-row items-center   w-2/4" id="book-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact us</a></li>
+            <div class="user-info flex justify-between items-center">
+                <img src="../Images/user's img.png" class="rounded-full w-1/5" alt="user's image">
+                <p class="user's name book-blue px-4">Jennifer Adeoye</p>
+                <div class="ellipse-dropdown flex justify-between ">
+                    <span class="ellipse rounded-full "></span>
+                    <span class="ellipse rounded-full"></span>
+                    <span class="ellipse rounded-full"></span>
+                </div>
+            </div>
+        </ul>
+       
+    </nav>
+    <section class="modal w-11/12 mx-auto md:w-9/12 lg:w-2/4 xl:w-2/4">
+        <div class="event-container w-10/12 mx-auto py-10">  
+            <div class="event-title py-5">
+                <h2 class="book-blue text-2xl font-harabara font-bold text-center sm:text-3xl">Book a Consultation</h2>
+            </div>
+        </div>
+        <p class="book-txt font-light w-4/5 mx-auto text-sm text-center mt-5 md:text-2xl">My health Padi is ready to attend to your health needs.</p>
+        <form class="book-options py-8">
+            <h6 class="book-txt font-medium font-airbnb text-base mb-5 text-center md:text-3xl lg:text-3xl xl:text-4xl">who is the consult for?</h6>
+       
+            <div class=" ">
+                <div class="option-container w-9/12 mx-auto bg-white  px-6 py-2  flex justify-between self-end items-center lg:py-5">
+                
+                    <label for="myself" class="option-title book-blue text-2x font-bold sm:text-3xl "> Myself</label>
+                    <input type="radio" name="radio" class=" rounded-full w-5 h-5  sm:w-12 h-12">
+                    
+
+                </div>
+            </div>
+            <div class=" my-10">
+                <div class="option-container mt-10  w-9/12 mx-auto bg-white  flex justify-between self-end items-center px-6 py-2 lg:py-5">
+                    <label for="other" class="option-title book-blue font-bold text-2x sm:text-3xl z-50"> Other</label>
+                   <input type="radio" name="radio" class="rounded-full w-5 h-5  sm:w-12 h-12" id="other"/>
+                </div>
+            </div>
+            <div class="w-100 mt-10 mb-20 flex justify-center items-center">
+                <a href=""  class="book-next-btn bg-book-blue font-medium text-white text-center text-2xl w-2/4 px-4 py-4  sm:text-3xl">Next</a>
+            </div>
+            
+        </form>
+    </section>
+    <!-- <script>
+        function toggleHamburger() {
+          var z =
+          document.getElementById("navlinks");
+          if (z.style.display === "block") {
+            z.style.display = "none";
+          } else {
+            z.style.display = "block";
+          }
+        }
+      </script> -->
+</body>
+</html>
